@@ -1,0 +1,148 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 20px 0px 150px 76px;
+}
+
+/* .container-header {
+    background-color: #1c1c1c;
+    border: #1c1c1c 30px solid; 
+} */
+
+.link-header {
+    font-weight: 600; /* -> Expessura da fonte */
+    font-size: 24px; /* -> Tamanho da fonte */
+    line-height: 29px; /* -> Espaçamento de uma linha em relação a outra */
+    color: #515151;
+    cursor: pointer; 
+    margin-right: 23px;
+    text-decoration: none;
+}
+
+#button-header {
+    background: #e15a82;
+    border-radius: 20.5px;
+    width: 130px; /* -> Largura */
+    height: 41px; /* Altura */ 
+    border: none;
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* 
+#button-header::before {
+    content: "➡️";
+} */
+
+#img-logo {
+    width: 450px;
+    height: 400px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.container-right, .container-left {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900px;
+    font-size: 100px;
+    line-height: 121px;
+    color: #515151;
+}
+
+#subtitle {
+    font-weight: 500px;
+    font-size: 40px;
+    line-height: 36.57px;
+    color: #515151;
+}
+
+.text {
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 55px;
+}
+
+#button-section {
+    width: 230px;
+    height: 60px;
+    background: #04b0ff;
+    border-radius: 30px;
+    font-weight: 700px;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25))
+            /*Horizontal  Vertical  Desfoque  Cor*/
+}
+
+.link-header:hover, #button-header:hover {
+    opacity: 0.8;
+}
+
+.link-header:active, #button-header:active {
+    opacity: 0.6;
+}
+
+#button-section:hover {
+    opacity: 0.8;
+}
+
+#button-section:active {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 885px) {
+
+    .link-header, .text, #button-header, .container-header {
+        display: none;
+    }
+    
+    h1 {
+        font-size: 55px;
+        line-height: 60px;
+        margin-top: 20px;
+    }
+    
+    section {
+        margin: 0 30px;
+        text-align: center;
+    }
+    
+    #img-logo {
+        width: 300px;
+        height: auto;
+        margin: auto;
+    }
+
+    #subtitle {
+        font-size: 28px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    #button-section {
+        display: block;
+        margin: auto;
+    }
+
+}
+
+
